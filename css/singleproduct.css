@@ -1,0 +1,54 @@
+/* start single pag */
+body {
+    text-align: center;
+}
+
+#container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.changebutton {
+    padding: 10px 20px;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+#image {
+    width: 400px;
+    height: 400px;
+    padding-top: 50px;
+}
+
+#description {
+    width: 50%;
+
+}
+
+h1 {
+    padding-top: 50px;
+}
+
+
+.changebutton:hover {
+    color: #ff9900;
+    border: 2px solid #ff9900;
+}
+
+#price {
+    color: blue;
+}
+
+#rating {
+    color: rgba(255, 255, 0, 0.422);
+}
+
+/* end single pag */

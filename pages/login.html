@@ -1,0 +1,67 @@
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> -->
+
+<!-- <h2>Weekly Coding Challenge #1: Sign in/up Form</h2> -->
+<div id="login">
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Create Account</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <br />
+                <input type="text" placeholder="Name" id="signUpName" required
+                    title="user name Must contain on letter or more " />
+                <input type="email" placeholder="Email" id="signUpEmail" required
+                    title="The email must be standard (contain @) for ex: any-letters@(gmail or yahoo or outlook).com " />
+                <input type="password" placeholder="Password" id="signUpPassword" required
+                    title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" />
+                <div>
+                    <input type="checkbox" onclick="myFunction()">Show Password
+                </div>
+                <br /><br />
+                <button onclick="sinnigUp()">Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Sign in</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <br />
+                <input type="email" placeholder="Email" id="signInEmail" required
+                    title="The email must be standard (contain @) for ex: any-letters@(gmail or yahoo or outlook).com " />
+                <input type="password" placeholder="Password" id="signInPassword" required
+                    title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" />
+                <div>
+                    <input type="checkbox" onclick="myFunction()">Show Password
+                </div>
+
+                <br /><br />
+                <a href="#">Forgot your password?</a>
+                <button onclick="sinnigIn()">Sign In</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome</h1>
+                    <p>To keep connected with us please login with your personal information</p>
+                    <h4>OR</h4>
+                    <button class="ghost" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello</h1>
+                    <p>Enter your personal emal and password to start journey with us</p>
+                    <h4>OR</h4>
+                    <button class="ghost" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

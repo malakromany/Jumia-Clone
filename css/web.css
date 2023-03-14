@@ -1,0 +1,358 @@
+/* Start Global Roles */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: content-box;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+#loading {
+    display: block;
+    margin: 30px auto;
+}
+
+.row {
+    width: 80%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* End Global Roles */
+
+/* Start Header */
+/* Header Part 1 */
+.himg {
+    background-color: #ff9900;
+}
+
+.himg a {
+    width: 80%;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.himg img {
+    margin: auto;
+    display: block;
+}
+
+/* Header Part 2 */
+#secHeader {
+    background-color: #f5f5f5;
+    padding: 10px 0;
+}
+
+#secHeader>div {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#secHeader div div:first-child a {
+    color: #ff9900;
+    font-size: 14px;
+}
+
+#secHeader div i {
+    color: #ff9900;
+}
+
+#secHeader div:first-child img {
+    width: 16px;
+}
+
+/* Header Part 3 */
+#thirdHeadr {
+    background-color: white;
+    padding: 10px 0;
+}
+
+#thirdHeadr .row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+
+
+}
+
+#thirdHeadr .row .form-div {
+    width: 40%;
+    padding-top: 5px;
+}
+
+#thirdHeadr .row .form-div input {
+    line-height: 30px;
+    width: 70%;
+    padding: 0 10px;
+}
+
+#thirdHeadr .row .form-div button {
+    line-height: 30px;
+    color: white;
+    background-color: #ff9900;
+    border-color: #ff9900;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 0 10px;
+}
+
+#thirdHeadr .row i {
+    color: #ff9900;
+    margin-top: 10px;
+}
+
+#thirdHeadr .row div span {
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* End Header */
+
+/* Start Aside and  Slider */
+#aside-slider {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#slider {
+    width: 60%;
+    position: relative;
+}
+
+#aside-slider aside {
+    width: 20%;
+    background-color: white;
+}
+
+#aside-slider aside ul li {
+    list-style: none;
+    padding: 5px 10px;
+
+}
+
+#aside-slider aside ul li a {
+    color: #666;
+}
+
+#slider .imgs img {
+    width: 97%;
+    margin: 10px;
+    display: none;
+    border-radius: 10px;
+}
+
+#slider .imgs img:first-child {
+    display: block;
+}
+
+#slider .dirs {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 35%;
+    width: 94%;
+    padding: 20px;
+}
+
+#slider .dirs a {
+    background-color: rgb(255, 255, 255, .3);
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 50%;
+
+
+}
+
+#slider .indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+}
+
+#slider .indicators a {
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    background-color: rgb(255, 255, 255, .3);
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255, .3);
+    margin: 2px;
+    padding: 0;
+}
+
+.product2 {
+    transition: 2s all;
+
+}
+
+.product2:hover {
+    transform: scale(1.2);
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+.myButtonProduct {
+    cursor: pointer;
+}
+
+/* .myButtonProduct:focus {
+    border-radius: 20px;
+
+} */
+
+
+#slider a:hover {
+    background-color: rgb(255, 255, 255, .5);
+}
+
+#aside-slider .right-colume {
+    width: 20%;
+}
+
+#aside-slider .right-colume img {
+    border-radius: 10px;
+}
+
+/* End Aside and  Slider */
+
+/* Start Section Products */
+#products .row1 {
+    display: flex;
+    margin-top: 20px;
+}
+
+#products .row1 .product:first-child {
+    margin-left: 0;
+}
+
+#products .row1 .product:last-child {
+    margin-right: 0;
+}
+
+.product {
+    width: 25%;
+    background-color: white;
+    padding: 10px;
+    margin: 0px 10px;
+
+}
+
+.product:hover {
+    background-color: #eee;
+}
+
+.product>a {
+    display: block;
+}
+
+.product img {
+    width: 230px;
+    height: 260px;
+    margin: auto;
+    display: block;
+}
+
+.product p a {
+    font-size: 13px;
+    color: #666;
+    margin: 10px 10px;
+    padding: 0px 10px;
+    text-align: center;
+    display: inline-block;
+    height: 30px;
+    overflow: hidden;
+}
+
+.price {
+    font-size: 11px;
+    font-weight: bold;
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 10px 0;
+}
+
+.product button {
+    width: 80%;
+    margin: auto;
+    line-height: 30px;
+    background-color: #ff9900;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    transition: 1s all;
+}
+
+.product button:hover {
+    border-radius: 20px;
+    transform: scale(0.8);
+}
+
+
+/* End Section Products */
+
+/* Start Footer */
+footer {
+    background: #282828;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer .row h3 {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+footer .row p {
+    color: #999;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+footer .row div:nth-child(2) form input {
+    line-height: 30px;
+    width: 70%;
+    padding: 0 10px;
+}
+
+footer .row div:nth-child(2) form button {
+    line-height: 30px;
+    color: white;
+    background-color: #ff9900;
+    border-color: #ff9900;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 0 10px;
+    margin-top: 2px;
+    display: inline-block;
+
+}
+
+footer .row div:nth-child(3)>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .row div:nth-child(3) div div img {
+    margin-right: 10px;
+    margin-top: -8px;
+}
+
+/* End Footer */
